@@ -93,5 +93,5 @@ def test_purchase_flow(driver):
     except (IndexError, ValueError, AttributeError) as e:
         assert False, f"❌ Не удалось распарсить сумму из текста '{total_text}'. Ошибка: {e}"
 
-
+#Updated test on 03.08.2025 to verify form stability
 
